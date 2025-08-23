@@ -1,0 +1,20 @@
+DROP TABLE IF EXISTS Marker
+CREATE TABLE Marker(markerID int Primary Key not Null, name text not null, active int not null);
+INSERT INTO Marker(markerID, name, active) Values(1, "Freezing", 0);
+INSERT INTO Marker(markerID, name, active) Values(2, "Cut Overgrowth", 0);
+INSERT INTO Marker(markerID, name, active) Values(3, "Droid Killed", 0);
+INSERT INTO Marker(markerID, name, active) Values(4, "Injured Leg", 0);
+INSERT INTO Marker(markerID, name, active) Values(5, "Floor 3 Powered", 0);
+INSERT INTO Marker(markerID, name, active) Values(6, "Window Melted", 0);
+INSERT INTO Marker(markerID, name, active) Values(7, "Flashlight On", 0);
+INSERT INTO Marker(markerID, name, active) Values(8, "Reactor Fixed", 0);
+INSERT INTO Marker(markerID, name, active) Values(9, "Elevator Used", 0);
+INSERT INTO Marker(markerID, name, active) Values(10, "Spacesuit On", 0);
+INSERT INTO Marker(markerID, name, active) Values(11, "Mag Boots On", 0);
+INSERT INTO Marker(markerID, name, active) Values(12, "Floor 4 Pirate Killed", 0);
+INSERT INTO Marker(markerID, name, active) Values(13, "CIC Pirate Killed", 0);
+INSERT INTO Marker(markerID, name, active) Values(14, "Power Cell Swapped", 0);
+INSERT INTO Marker(markerID, name, active) Values(15, "Blowtorch Used", 0);
+INSERT INTO Marker(markerID, name, active) Values(16, "Alien Trapped", 0);
+INSERT INTO Marker(markerID, name, active) Values(17, "Boss Damaged", 0);
+INSERT INTO Marker(markerID, name, active) Values(18, "Boss Killed", 0);

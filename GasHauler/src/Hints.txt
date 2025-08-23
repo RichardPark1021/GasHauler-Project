@@ -1,0 +1,17 @@
+DROP TABLE IF EXISTS Hints
+CREATE TABLE Hints(hintID int Primary Key not Null, description text not Null);
+INSERT INTO Hints(hintID, description) VALUES(1, "You can't see anything, but you still have your sense of touch...");
+INSERT INTO Hints(hintID, description) VALUES(2, "The cryogenic pod's goo is making you freeze, time to get it off you before it's too late...");
+INSERT INTO Hints(hintID, description) VALUES(3, "You need to find something to clear the overgrowth if you want to get off this floor.");
+INSERT INTO Hints(hintID, description) VALUES(4, "You need to check out other rooms for something else to calm this alien down");
+INSERT INTO Hints(hintID, description) VALUES(5, "You remember how violent the alien behaved in this lab, it seemed like it would eat you whole.");
+INSERT INTO Hints(hintID, description) VALUES(6, "This pirate is no joke... it might take something otherworldly to take him down!");
+INSERT INTO Hints(hintID, description) VALUES(7, "The journey to get here left you banged up pretty bad. In retrospect, you probably should have gotten some medical assistance before trying to take back an entire ship on your own.");
+INSERT INTO Hints(hintID, description) VALUES(8, "With your injured leg you're just not enough to beat this guy... You’re either going to need some medical aid or a lot of liquid courage if you want to survive this.");
+INSERT INTO Hints(hintID, description) VALUES(9, "It never hurts to throw everything you have into a fight.");
+INSERT INTO Hints(hintID, description) VALUES(10, "If you don’t want to die in space, you’ll need to find a way to manage the lack of gravity and air.");
+INSERT INTO Hints(hintID, description) VALUES(11, "You could swear you saw a series of numbers written somewhere on the ship...");
+INSERT INTO Hints(hintID, description) VALUES(12, "That blowtorch only has so much fuel... you probably should have been careful what you used it on!");
+INSERT INTO Hints(hintID, description) VALUES(13, "If you want to leave this floor you need to search for a way to restore the Reactor.");
+INSERT INTO Hints(hintID, description) VALUES(14, "Yes, directions are hard... if all else fails remember to save, and just experiment!");
+INSERT INTO Hints(hintID, description) VALUES(15, "You cry for help, but no one hears you!");

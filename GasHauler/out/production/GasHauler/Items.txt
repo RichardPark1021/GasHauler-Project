@@ -1,0 +1,23 @@
+DROP TABLE IF EXISTS Items
+CREATE TABLE Items(itemID int Primary Key not Null, name text not null, singleName text, roomID int not Null, inventoryID int not Null);
+INSERT INTO Items(itemID, name, singleName, roomID, inventoryID) VALUES(1, "Flashlight,Tube", "Flashlight", 5, 0);
+INSERT INTO Items(itemID, name, singleName, roomID, inventoryID) VALUES(2, "Rag,Cloth", "Rag", 3, 0);
+INSERT INTO Items(itemID, name, singleName, roomID, inventoryID) VALUES(3, "Mop", "Mop", 3, 0);
+INSERT INTO Items(itemID, name, singleName, roomID, inventoryID) VALUES(4, "Cleaning Spray,Spray, Spray Bottle,Cleaning Spray Bottle", "Cleaning Spray", 3, 0);
+INSERT INTO Items(itemID, name, singleName, roomID, inventoryID) VALUES(5, "Terrariums Book,Terrariums: A Complete Guide to Maintaining Plants in Space, Terrariums,Book", "Terrariums Book", 5, 0);
+INSERT INTO Items(itemID, name, singleName, roomID, inventoryID) VALUES(6, "Railgun,Gun", "Railgun", 31, 0);
+INSERT INTO Items(itemID, name, singleName, roomID, inventoryID) VALUES(7, "Spacesuit,Suit", "Spacesuit", 13, 0);
+INSERT INTO Items(itemID, name, singleName, roomID, inventoryID) VALUES(8, "Mag Boots,Magnetic Boots,Boots", "Mag Boots", 17, 0);
+INSERT INTO Items(itemID, name, singleName, roomID, inventoryID) VALUES(9, "Blowtorch,Torch", "BlowTorch", 17, 0);
+INSERT INTO Items(itemID, name, singleName, roomID, inventoryID) VALUES(10, "Fuel Injector,Injector", "Fuel Injector", 13, 0);
+INSERT INTO Items(itemID, name, singleName, roomID, inventoryID) VALUES(11, "Power Cell,Cell", "Power Cell", 18, 0);
+INSERT INTO Items(itemID, name, singleName, roomID, inventoryID) VALUES(12, "Jar,Container", "Jar", 28, 0);
+INSERT INTO Items(itemID, name, singleName, roomID, inventoryID) VALUES(13, "Journal", "Journal", 9, 0);
+INSERT INTO Items(itemID, name, singleName, roomID, inventoryID) VALUES(14, "Flask", "Flask", 20, 0);
+INSERT INTO Items(itemID, name, singleName, roomID, inventoryID) VALUES(15, "Maintenance Tech Clothes,Tech Clothes,Clothes", "Tech Clothes", 5, 0);
+INSERT INTO Items(itemID, name, singleName, roomID, inventoryID) VALUES(16, "Ammo,Ammo Cartridge", "Ammo",17, 0);
+INSERT INTO Items(itemID, name, singleName, roomID, inventoryID) VALUES(17, "Tranquilizer Gun,Tranq Gun,Tranquilizer", "Tranquilizer Gun", 8, 0);
+INSERT INTO Items(itemID, name, singleName, roomID, inventoryID) VALUES(18, "Axe,Ax", "Ax", 5, 0);
+INSERT INTO Items(itemID, name, singleName, roomID, inventoryID) VALUES(19, "storage pack", "Storage Pack", 5, 0);
+INSERT INTO Items(itemID, name, singleName, roomID, inventoryID) VALUES(20, "shape", "Shape", 5, 0);
+

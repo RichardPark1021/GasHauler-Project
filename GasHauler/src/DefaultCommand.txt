@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS DefaultCommand
+CREATE TABLE IF NOT EXISTS DefaultCommand(defaultID int Primary Key not Null, name text not null, defaultAction text not null);
+INSERT INTO DefaultCommand(defaultID, name, defaultAction) Values(1, 'Move', 'You cannot go that way!');
+INSERT INTO DefaultCommand(defaultID, name, defaultAction) Values(2, 'Use', 'You see no use for this item here.');
+INSERT INTO DefaultCommand(defaultID, name, defaultAction) Values(3, 'Pick Up', 'This item does not exist in this room.');
+INSERT INTO DefaultCommand(defaultID, name, defaultAction) Values(4, 'Drop', 'You cannot drop what you do not have!');
+INSERT INTO DefaultCommand(defaultID, name, defaultAction) Values(5, 'Feel', 'This object does not exist in the room.');
+INSERT INTO DefaultCommand(defaultID, name, defaultAction) Values(6, 'Look At', 'This object does not exist in the room.');
