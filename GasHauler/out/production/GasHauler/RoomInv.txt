@@ -1,4 +1,0 @@
-DROP TABLE IF EXISTS RoomInv
-CREATE TABLE IF NOT EXISTS RoomInv(RoomID int not null, MarkerID int not null);
-INSERT INTO RoomInv(RoomID, MArkerID) values(3, 2)
-INSERT INTO RoomInv(RoomID, MArkerID) values(5, 7)

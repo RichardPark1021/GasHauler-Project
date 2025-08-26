@@ -1,8 +1,0 @@
-DROP TABLE IF EXISTS Achievement
-CREATE TABLE Achievement(achievementID int Primary Key not Null, name text not null, description text not null, scoreValue int not null, completed int not null);
-INSERT INTO Achievement(achievementID, name, description, scoreValue, completed) Values(1, "Aee Aee Uuee Eeaoiaiee", "Become a space whale hunter extraordinaire by finding the space whale", 1000, 0);
-INSERT INTO Achievement(achievementID, name, description, scoreValue, completed) Values(2, "Hoarder", "Find every item in the game", 150, 0);
-INSERT INTO Achievement(achievementID, name, description, scoreValue, completed) Values(3, "Security Disabled", "Kill the security droid", 200, 0);
-INSERT INTO Achievement(achievementID, name, description, scoreValue, completed) Values(4, "Contained", "Trap the alien from the lab", 250, 0);
-INSERT INTO Achievement(achievementID, name, description, scoreValue, completed) Values(5, "Hostile Takeover", "Defeat the pirate boss controlling the ship", 300, 0);
-INSERT INTO Achievement(achievementID, name, description, scoreValue, completed) Values(6, "Just Another Job", "Autopilot the ship to a port", 100, 0);
