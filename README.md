@@ -21,8 +21,8 @@ interact, and manage resources.
 Discord
 
 ### Technologies
-1.Java
-2.SQLite
+1. Java
+2. SQLite-JDBC
 
 ### Installation and Run Steps
 1. Install a Java IDE (Intellij or Eclipse)
